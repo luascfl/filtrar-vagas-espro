@@ -1,8 +1,9 @@
 # Filtrar Vagas - Espro
-Um script de usuário (userscript) para o Tampermonkey que filtra vagas de emprego no quadro de vagas do Espro. Este script oculta as vagas de emprego que não estão no seu perfil (indicadas por um círculo vermelho) e remove vagas de São Paulo (SP) ou Lauro de Freitas (BA).
+Um script de usuário (userscript) para o Tampermonkey que filtra vagas de emprego no quadro de vagas do Espro. Este script oculta as vagas de emprego que não estão no seu perfil (indicadas por um círculo vermelho) e remove indesejadas.
+
 ## Recursos Principais
 * Oculta vagas de emprego marcadas com um círculo vermelho (indicando que não estão no seu perfil).
-* Remove vagas de emprego de São Paulo (SP) e Lauro de Freitas (BA).
+* Remove vagas de emprego de localidades como São Paulo (SP) e Lauro de Freitas (BA), etc.
 * Usa uma lista configurável de termos indesejados para filtrar vagas.
 * Atualiza automaticamente a filtragem quando o conteúdo da página muda.
 
