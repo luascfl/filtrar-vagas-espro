@@ -14,7 +14,7 @@ Um script de usuário (userscript) para o Tampermonkey que filtra vagas de empre
 4. **Selecione "Vagas no meu perfil":** Certifique-se de ter selecionado o filtro "Vagas no meu perfil" no site do Espro. O script então filtrará automaticamente as vagas restantes.
 
 ## Uso
-O script filtra automaticamente as vagas de emprego no quadro de vagas do Espro assim que instalado e a página for carregada. Ele monitora continuamente a página em busca de mudanças, garantindo que novas vagas carregadas também sejam filtradas.
+O script filtra automaticamente as vagas de emprego no quadro de vagas do Espro assim que instalado e a página for carregada. Ele monitora continuamente a página em busca de mudanças, garantindo que novas vagas carregadas também sejam filtradas. Este script também é atualizado automaticamente caso mudanças ocorrerem neste repositório. 
 
 ## Configuração
 O comportamento de filtragem do script é controlado pela matriz `termosIndesejados` dentro do arquivo `filtrar-vagas-espro.user.js`. Essa matriz contém uma lista de palavras-chave. Se uma vaga de emprego contiver qualquer uma dessas palavras-chave (não diferencia maiúsculas de minúsculas), ela será ocultada ou removida. Você pode modificar essa matriz para personalizar a filtragem conforme suas necessidades. Por exemplo:
