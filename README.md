@@ -27,7 +27,7 @@ Para alterar o filtro, você precisa editar essa matriz diretamente no userscrip
 O projeto consiste nos seguintes arquivos:
 * `README.md`: Este arquivo.
 * `filtrar-vagas-espro.user.js`: O código principal do userscript.
-* `logo.png`: (Possivelmente) um ícone usado pelo script (não incluído no código fornecido).
+* `logo.png`: Um ícone usado pelo script.
 
 ## Contribuição
 Sinta-se à vontade para bifurcar este repositório e enviar pull requests com melhorias ou correções de bugs. Consulte o rastreador de problemas para questões conhecidas e solicitações de recursos.
