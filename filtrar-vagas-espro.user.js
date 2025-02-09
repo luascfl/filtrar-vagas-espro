@@ -20,8 +20,8 @@
 
     // Função para verificar se a vaga é de São Paulo (SP) ou Lauro de Freitas (BA)
     function isVagaIndesejada(textoVaga) {
-        const cidadesIndesejadas = ["SAO PAULO", "OSASCO", "COTIA", "LAURO DE FREITAS"];
-        return cidadesIndesejadas.some(cidade => textoVaga.toUpperCase().includes(cidade));
+        const termosIndesejados = ["SAO PAULO", "OSASCO", "COTIA", "LAURO DE FREITAS", "SIMOES FILHO", "CLOSER", "CONSULTORA", "TRAINEE", "JUNIOR", "TESTE", "GERENTE", "ANALISTA"];
+        return termosIndesejados.some(filtro => textoVaga.toUpperCase().includes(filtro));
     }
 
     // Função para ocultar vagas com círculo vermelho e remover vagas indesejadas
