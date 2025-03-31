@@ -1,15 +1,15 @@
 // ==UserScript==
 // @name         Filtrar Vagas - Espro
 // @namespace    http://tampermonkey.net/
-// @version      1.5
+// @version      1.6
 // @description  Oculta vagas que não estão no seu perfil (com círculo vermelho) e remove vagas de São Paulo (SP) ou Lauro de Freitas (BA).
 // @home         https://github.com/luascfl/filtrar-vagas-espro
 // @supportURL   https://github.com/luascfl/filtrar-vagas-espro/issues
-// @updateURL    https://raw.githubusercontent.com/luascfl/filtrar-vagas-espro/master/filtrar-vagas-espro.user.js
-// @downloadURL  https://raw.githubusercontent.com/luascfl/filtrar-vagas-espro/master/filtrar-vagas-espro.user.js
+// @updateURL    https://raw.githubusercontent.com/luascfl/filtrar-vagas-espro/main/filtrar-vagas-espro.user.js
+// @downloadURL  https://raw.githubusercontent.com/luascfl/filtrar-vagas-espro/main/filtrar-vagas-espro.user.js
 // @author       luascfl
 // @license      MIT License
-// @icon         https://raw.githubusercontent.com/luascfl/filtrar-vagas-espro/master/logo.png
+// @icon         https://raw.githubusercontent.com/luascfl/filtrar-vagas-espro/main/logo.png
 // @author       luascfl
 // @match        https://espro-app.taqe.com.br/#!/taqe/tabs/vacancies
 // @match        https://app.taqe.com.br/#!/taqe/tabs/vacancies
